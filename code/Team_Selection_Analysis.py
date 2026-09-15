@@ -12,7 +12,7 @@ from google.colab import files
 data_table.enable_dataframe_formatter()
 
 ##### Reading CSV for player stats
-
+player_round_stats = pd.read_csv('https://raw.githubusercontent.com/rogers1000/fpl/refs/heads/main/output/player_round_stats.csv')
 
 ##### Team Selection Analysis
 ### Need to track teams GW-by-GW scores as a basis
